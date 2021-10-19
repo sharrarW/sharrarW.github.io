@@ -103,7 +103,7 @@ input, select, textarea {
 		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 		/* background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #09192f 15%, #161616 85%);
-		background-image: url("images/overlay.png"), linear-gradient(55deg, #09192f 5%, #161616 95%);
+		background-image: url("images/overlay.png"), linear-gradient(55deg, #161616 5%, #161616 95%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #161616;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2577,26 +2577,6 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			.statistics li.style1 {
-				background-color: #efa8b0;
-			}
-
-			.statistics li.style2 {
-				background-color: #c79cc8;
-			}
-
-			.statistics li.style3 {
-				background-color: #a89cc8;
-			}
-
-			.statistics li.style4 {
-				background-color: #9bb2e1;
-			}
-
-			.statistics li.style5 {
-				background-color: #8cc9f0;
-			}
-
 			.statistics li strong, .statistics li b {
 				display: block;
 				font-size: 2em;
@@ -2701,7 +2681,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				/* border-radius: 100%; */
-				height: 18em;
+				height: 15em;
 				width: 20em;
 			}
 
@@ -3101,8 +3081,8 @@ input, select, textarea {
 		#main button,
 		#main .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			box-shadow: inset 0 0 0 1px #5ef3da;
+			color: #5ef3da !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3110,7 +3090,7 @@ input, select, textarea {
 			#main input[type="button"]:hover,
 			#main button:hover,
 			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: #3fa29667;
 			}
 
 			#main input[type="submit"]:active,
