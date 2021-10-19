@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #09192f;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #09192f 15%, #09192f 85%);
+		background-color: #161616;
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #09192f 15%, #161616 85%);
+		background-image: url("images/overlay.png"), linear-gradient(55deg, #09192f 5%, #161616 95%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3075,10 +3075,11 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		-webkit-font-smoothing: antialiased;
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 .25em 0;
 		}
 
 		#header p {
@@ -3092,6 +3093,7 @@ input, select, textarea {
 
 			#header.alt h1 {
 				font-size: 3.25em;
+				
 			}
 
 			#header.alt > * {
@@ -3236,7 +3238,8 @@ input, select, textarea {
 		}
 
 		#nav a:hover {
-			color: #636363;
+			/* color: #00ffdd; */
+			text-shadow: 0 0 10px #00ffdd;
 		}
 
 		#nav strong, #nav b {
@@ -3296,13 +3299,12 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: #112240;
+						/* background-color: #112240; */
+						/* text-shadow: 0 0 5px #5ef3da; */
 					}
 
 					#nav ul li a.active {
 						background-color: #3fa29667;
-						
-						box-shadow: none;
 					}
 
 		/* #nav.alt {
@@ -3334,11 +3336,15 @@ input, select, textarea {
 
 		}
 
+		#coin  {
+		
+
+		}
+
 /* Main */
 
 	#main {
 		/* Boxes bg color*/
-		background-color: #112240;
 		color: #636363;
 		border-radius: 0.25em;
 		border-color: #7ec3ee;
@@ -3551,11 +3557,11 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: #6273bde1;
+			/* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #09a1ff); */
 		}
 
 		#main table tbody tr {
