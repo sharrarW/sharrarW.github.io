@@ -2507,6 +2507,23 @@ input, select, textarea {
 		list-style: none;
 	}
 
+	.features img {
+		border: solid 1px;
+		border-radius: 100%;
+		width: 200px;
+		height: 200px;
+	}
+
+	/*TODO: Remove underline from image links*/
+	.features img:hover {
+		opacity: 0.65;
+	}
+
+
+
+
+	
+
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -2675,20 +2692,19 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			/* border: solid 1px; */
 		}
 
 			.spotlight .image img {
 				display: block;
-				/* border-radius: 100%; */
 				height: 15em;
 				width: 20em;
+				
+			}
+			/*TODO: Fix [coingain screenshot] size*/
+			.spotlight .image img {
+				
 			}
 
-			.spotlight .phone {
-				/* border: solid 1px; */
-				/* height: 15em; */
-			}
 
 			
 
@@ -2747,7 +2763,7 @@ input, select, textarea {
 		}
 
 	.spotlight .image {
-		border-color: rgba(250, 13, 13, 0.35);
+		
 	}
 
 /* Header */
