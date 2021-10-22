@@ -2510,20 +2510,10 @@ input, select, textarea {
 	.features img {
 		border: solid 1px;
 		border-radius: 100%;
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
-
-	/*TODO: Remove underline from image links*/
-	.features img:hover {
-		opacity: 0.65;
-	}
-
-
-
-
 	
-
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -2569,6 +2559,81 @@ input, select, textarea {
 					}
 
 		}
+
+
+	/* Interests */
+	.interests {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		width: calc(100% + 2em);
+		margin: 0 0 3em -2em;
+		padding: 0;
+		list-style: none;
+	}
+
+	.interests img {
+		border: solid 1px;
+		border-radius: 100%;
+		width: 100px;
+		height: 100px;
+	}
+	
+		.interests li {
+			width: calc(33.33333% - 2em);
+			margin-left: 2em;
+			margin-top: 3em;
+			padding: 0;
+		}
+
+			.interests li:nth-child(1), .interests li:nth-child(2), .interests li:nth-child(3) {
+				margin-top: 0;
+			}
+
+			.interests li > :last-child {
+				margin-bottom: 0;
+			}
+
+		@media screen and (max-width: 980px) {
+
+			.interests li {
+				width: calc(50% - 2em);
+			}
+
+				.interests li:nth-child(3) {
+					margin-top: 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.interests {
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+
+				.interests li {
+					width: 100%;
+					margin-left: 0;
+					margin-top: 2em;
+				}
+
+					.interests li:nth-child(2), .interests li:nth-child(3) {
+						margin-top: 2em;
+					}
+
+		}
+
 
 /* Statistics */
 
