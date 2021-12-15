@@ -2765,9 +2765,15 @@ input, select, textarea {
 				width: 20em;
 				
 			}
-			/*TODO: Fix [coingain screenshot] size*/
-			.spotlight .image img {
-				
+			/*TODO: Fix [ios app screenshot] size*/
+			.spotlight .ios img {
+				display: inline-block;
+				margin-left: 8em;
+				padding: 0.65;
+
+				height: 15em;
+				width: 7em;
+
 			}
 			
 		@media screen and (max-width: 980px) {
