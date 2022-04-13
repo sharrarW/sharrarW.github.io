@@ -2771,8 +2771,8 @@ input, select, textarea {
 				margin-left: 8em;
 				padding: 0.65;
 
-				height: 15em;
-				width: 7em;
+				height: 20em;
+				width: 25;
 
 			}
 			
@@ -3102,11 +3102,6 @@ input, select, textarea {
 				#nav + #main {
 					padding-top: 0;
 				}
-
-		}
-
-		#coin  {
-		
 
 		}
 
