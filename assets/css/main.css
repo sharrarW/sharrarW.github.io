@@ -2767,8 +2767,8 @@ input, select, textarea {
 			}
 			/*TODO: Fix [ios app screenshot] size*/
 			.spotlight .ios img {
-				display: inline-block;
-				margin-left: 8em;
+				display: block;
+				margin-left: 4em;
 				padding: 0.65;
 
 				height: 20em;
@@ -2816,6 +2816,15 @@ input, select, textarea {
 					margin-bottom: 2em;
 				}
 
+				.spotlight .ios {
+					-moz-flex: 0 1 auto;
+					-webkit-flex: 0 1 auto;
+					-ms-flex: 0 1 auto;
+					flex: 0 1 auto;
+					margin-left: -4em;
+					margin-bottom: 2em;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2824,15 +2833,11 @@ input, select, textarea {
 				padding: 0.35em;
 			}
 
-				.spotlight .image img {
-					/* width: 12em; */
+				.spotlight .ios img {
+					padding: 0.35em;
 				}
 
 		}
-
-	.spotlight .image {
-		
-	}
 
 /* Header */
 
